@@ -63,10 +63,12 @@ header{
   display: inline-block;
 }
 
-.nav li:hover{
-  color: #e8603c;
-  cursor: pointer;
+a {
+  text-decoration: none;
+  color: #b9b9b9;
 }
+
+.nav li a:hover{color: #e8603c;}
 
 .line_name{
   width: 100%;
